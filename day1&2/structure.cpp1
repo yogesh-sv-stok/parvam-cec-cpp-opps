@@ -1,0 +1,28 @@
+#include<iostram>
+using namespace std;
+
+int mainn(){
+  //Declaring the variables with different datatype
+  string name,college,branch,usn;
+  char section;
+  int age,sem;
+  bool isStudent;
+  float height;
+  //Initializing/Assigning the values to the variables
+  name="Nayak gautam";
+  section='A';
+  age=18;
+  college="cec";
+  branch="AIML";
+  usn="1CE24AI054";
+  sem=2;
+  isStudent=true;
+  height=5.3;
+
+  cout<<"Name:"<<name<<endl;
+  cout<<"Age:"<<age<<endl;
+  cout<<"Height:"<<heifht<<endl;
+  cout<<"College:",<<College",Branch:"<<branch<<endl;
+  cout<<"USN:",<<usn<<",sem:"<<sem<<endl;
+  cout<<"Section:"<<section<<",Is he/she a student:"<<isStudent<<endl;
+}
